@@ -1,0 +1,405 @@
+body {
+  background-color: #FF7D29;
+}
+.brandname
+{
+  padding: 5px;
+  text-align: center;
+  font-family: serif;
+  color: #FDFFE2;
+  background-color: #FF7D29;
+}
+#tagline
+{
+  margin-top: -15px;
+  font-family: monospace;
+  font-size: 20px;
+}
+ul
+{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  background-color: #333;
+  width: 100%;
+  overflow: hidden;
+  margin-top: -30px;
+}
+li
+{
+  float: left;
+
+}
+li a
+{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+li a:hover
+{
+  color: #000123;
+  text-decoration: none;
+  background-color: gold;
+}
+.abo_img
+{
+  width:99%;
+}
+.abo_info
+{
+  font-size: 19px;
+}
+.abot_info
+{
+  margin-left: 10px;
+}
+.brand_about
+{
+  font-size: 35px;
+  font-weight: bold;
+  font-family: serif;
+  color: white;
+}
+.well
+{
+  background-color:#FF7D29 ;
+  border: transparent;
+  color: white;
+}
+.que_abo
+{
+  margin-top: -30px;
+}
+.card p
+{
+  font-size: 18px;
+}
+.card
+{
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.3s;
+  border-top: 20px solid #FBF4DB;
+  border-radius: 10px 10px 0px 0px;
+
+}
+.card:hover
+{
+  box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+}
+.cardcontainer
+{
+  padding: 4px 50px;
+  background-color: #FBF4DB;
+  padding-bottom: 20px;
+  color: black;
+  font-family: serif;
+}
+button
+{
+  background-color: limegreen;
+  color: white;
+  padding: 5px 15px;
+  border-radius: 20px;
+  border: none;
+  width: 70%;
+}
+button:hover 
+{
+  color: #000123;
+  cursor: pointer;
+  filter: drop-shadow(1px 1px  gold);
+}
+
+@font-face
+{
+  font-family: myfont;
+  src: url(Rusilla.otf);
+}
+span
+{
+  font-family: myfont;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 50px;
+  color: white;
+  
+}
+.combo-container
+{
+  width: 90%;
+}
+.combo1
+{
+  margin-top: 7%;
+}
+.combo2,.com1
+{
+  border-radius: 8px;
+  border: 2px solid white;
+  height: 500px;
+
+}
+.buy_combo_class
+{
+  background-color: limegreen;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  width: 50%;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+.comb1
+{
+  margin-left: 140px;
+  margin-top: 7%;
+}
+.buy_combo_class1
+{
+  background-color: limegreen;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 20px;
+  border: none;
+  width: 50%;
+  font-size: 17px;
+  font-weight: bold;
+  margin-left: 120px;
+  margin-top: 30px;
+}
+.card:hover
+{
+  transform: translateY(-11px);
+  box-shadow: 0px 10px 10px 0px gray;
+  transition: 0.4s;
+}
+/*Branch Css*/
+
+.branchimg
+{
+  width: 402px;
+  height: 250px;
+  border-radius: 8px;
+}
+.container2
+{
+  width: 30%;
+  background-color:#d6d6d4;
+  height: 400px;
+  float: left;
+  margin-left: 10px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  transition: transform 0.3s ease-in-out;
+
+}
+.container2 p
+{
+  font-weight: normal;
+}
+.container2 h2
+{
+  font-family: serif;
+}
+.container2:hover
+{
+  transform: translateY(-10px);
+  box-shadow: 0px 10px 10px 0px gray;
+  background-color: gold;
+}
+.row3
+{
+  margin-top: 5%;
+  margin-left: 100px;
+}
+.add_info
+{
+  font-weight: bold;
+}
+.branch_tag
+{
+  font-family: serif;
+  text-align: center;
+  margin-top: 80px;
+  color: white;
+  font-size: 35px;
+  border-bottom: 3px solid black;
+  width: 25%;
+}
+.oredr_info
+{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: -60px;
+  letter-spacing: 2px;
+}
+.menubar_div
+{
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+/*Start Contact Css*/
+.rowcontact
+{
+  margin-top: 80px;
+  border: 4px solid limegreen;
+  width: 80%;
+  height: 500px;
+  margin-left: 150px;
+  background-color:#d6d6d4;
+}
+.data5
+{
+  width: 55%;
+  height: 500px;
+  float: right;
+  margin-top: -43.4%;
+  font-size: 25px;
+  margin-right: -4px;
+  padding: 10px;
+  border-right: 4px solid black;
+  border-top: 4px solid black;
+  border-bottom: 4px solid black;
+
+  background-color: #5e4537;
+}
+.data9
+{
+  width: 30%;
+  height: 500px;
+  margin-left: 30px;
+}
+.datamem
+{
+  font-weight: bold;
+}
+.logocon
+{
+  width: 200px;
+  margin-top: 120px;
+}
+.ceoname1
+{
+  text-decoration: underline;
+  text-align: center;
+  font-family: serif;
+  font-weight: bold;
+  color: white;
+}
+.inputclass
+{
+  border-radius: 10px;
+  border: none;
+  margin-left: 170px;
+  width: 300px;
+  margin-top: 20px;
+  padding: 10px;
+  font-size: 15px;
+  border-bottom: 4px solid limegreen;
+}
+.conbuto
+{
+/*  padding: 10px;*/
+  width: 150px;
+  background-color: black;
+  border: none;
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.conbuto:hover
+{
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border-bottom: 3px solid gold;
+}
+.butodiv
+{
+  margin-left: 168px;
+}
+.thank
+{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 80px ;
+  color: white;
+}
+
+/*Sclider*/
+#slider
+{
+  overflow: hidden;
+  margin-top: 30px;
+}
+#slider figure
+{
+  position:relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  animation: 20s slider infinite;
+}
+#slider figure img
+{
+  float: left;
+  width: 20%;
+}
+@keyframes slider
+{
+  0%
+  {
+    left: 0;
+  }
+  20%
+  {
+    left: 0;
+  }
+  25%
+  {
+    left: -100%;
+  }
+  45%
+  {
+    left: -100%;
+  }
+  50%
+  {
+    left: -200%;
+  }
+  70%
+  {
+    left: -200%;
+  }
+  75%
+  {
+    left: -300%;
+  }
+  95%
+  {
+    left: -300%;
+  }
+}
+/*Footer Css*/
+.containerfoot
+{
+  float: left;
+  margin-left: 100px;
+}
+.rowfoot
+{
+  margin-left: 70px;
+}
